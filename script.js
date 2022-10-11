@@ -55,7 +55,7 @@ let addBtn = document.getElementById("addBtn");
 
 addBtn.addEventListener("click", (e) => {
     let ticketModal = document.getElementById("ticketModal");
-    let textModal=document.getElementById("modalPara").value='Type here...';
+    let textModal=document.getElementById("modalPara").placeholder="Type here...";
     ticketModal.style.display = "flex";
 });
 
@@ -74,7 +74,7 @@ modalPriBtns.forEach(modalPriBtn => {
     });
 });
 
-//feting the submit button of the ticket modal
+//fetcing the submit button of the ticket modal
 let submitBtn = document.getElementById("submitBtn");
 
 
